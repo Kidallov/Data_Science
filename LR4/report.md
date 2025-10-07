@@ -168,3 +168,24 @@ SARIMA(1, 1, 0)x(0, 1, 1, 7): прогноз=271095.18, RMSE=152750.82
 ```
 
 ---
+
+Графики:
+---
+
+<img width="1200" height="800" alt="Разложение временного ряда 1" src="https://github.com/user-attachments/assets/0ac0f241-2f4a-4026-b216-dca1b9203d14" />
+
+---
+
+<img width="1400" height="500" alt="Сравнение ACF и PACF 2" src="https://github.com/user-attachments/assets/d2a875cb-bcc0-4294-8a26-8eb6ac8fe5dc" />
+
+---
+
+<img width="1400" height="500" alt="Остатки Holt-Winters 3" src="https://github.com/user-attachments/assets/d4879520-f110-4d5a-9cb6-577bb20aa9c1" />
+
+---
+
+<img width="1400" height="500" alt="Остатки SARIMA 4" src="https://github.com/user-attachments/assets/b3b47e57-f6dd-4b65-a201-79fdae7e7b57" />
+
+---
+
+<img width="1200" height="600" alt="Прогноз моделей 5" src="https://github.com/user-attachments/assets/340e5376-d8db-49f0-a45c-8fa42e5204b7" />
