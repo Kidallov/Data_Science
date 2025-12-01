@@ -10,54 +10,68 @@
 
 ```
 Матрица Признаков:
-                Action  Comedy  Drama  Sci-Fi
-Film_ID                                      
-1                    1       0      0       0
-2                    0       0      0       1
-3                    0       0      1       0
-4                    1       1      0       1
-5                    0       0      1       0
+          Action  Comedy  Drama  Sci-Fi
+Film_ID                               
+1             1       0      0       0
+2             0       0      0       1
+3             0       0      1       0
+4             1       1      0       1
+5             0       0      1       0
 
 ==================================================
 
 Матрица Косинусного Сходства:
 
-                          Die Hard  The Martian  Pulp Fiction  Guardians of the Galaxy  La La Land
-Die Hard                    1.0000       0.0000        0.0000                   0.5774      0.0000
-The Martian                 0.0000       1.0000        0.0000                   0.5774      0.0000
-Pulp Fiction                0.0000       0.0000        1.0000                   0.0000      1.0000
-Guardians of the Galaxy     0.5774       0.5774        0.0000                   1.0000      0.0000
-La La Land                  0.0000       0.0000        1.0000                   0.0000      1.0000
+Title                    Die Hard  ...  La La Land
+Title                              ...            
+Die Hard                   1.0000  ...         0.0
+The Martian                0.0000  ...         0.0
+Pulp Fiction               0.0000  ...         1.0
+Guardians of the Galaxy    0.5774  ...         0.0
+La La Land                 0.0000  ...         1.0
+
+[5 rows x 5 columns]
 
 ==================================================
 
 Рекомендации для 'Die Hard':
-                           Фильм  Сходство
-0  Guardians of the Galaxy     0.5774
-1             The Martian     0.0000
+                     Фильм  Сходство
+0  Guardians of the Galaxy    0.5774
+1              The Martian    0.0000
 
 ==================================================
 
 Рекомендации для 'Pulp Fiction':
         Фильм  Сходство
-0  La La Land    1.0000
-1  Die Hard      0.0000
+0  La La Land       1.0
+1    Die Hard       0.0
 
 ==================================================
 
 Рекомендации для 'The Martian':
-                           Фильм  Сходство
-0  Guardians of the Galaxy     0.5774
-1               Die Hard      0.0000
+                     Фильм  Сходство
+0  Guardians of the Galaxy    0.5774
+1                 Die Hard    0.0000
 
 ==================================================
 
 Рекомендации для 'La La Land':
-            Фильм  Сходство
-0  Pulp Fiction    1.0000
-1      Die Hard    0.0000
+        Фильм  Сходство
+0  La La Land       1.0
+1    Die Hard       0.0
 
 ==================================================
+
+Полная матрица косинусного сходства для анализа:
+Title                    Die Hard  ...  La La Land
+Title                              ...            
+Die Hard                   1.0000  ...         0.0
+The Martian                0.0000  ...         0.0
+Pulp Fiction               0.0000  ...         1.0
+Guardians of the Galaxy    0.5774  ...         0.0
+La La Land                 0.0000  ...         1.0
+
+[5 rows x 5 columns]
 ```
 
 ### Ответы на вопросы для отчета (Задание 1)
